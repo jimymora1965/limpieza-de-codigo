@@ -2,7 +2,7 @@ import os
 #cdigo para ejecutar en forma limpia la salida del codigo en consola
 
 def limpiar_consola():
-    if os.name == 'nt':  # Windows
+    if os.name == 'nt':  # Windows NT
         os.system('cls')
     # else:  # Unix/Linux
     #     os.system('clear')
